@@ -48,6 +48,7 @@ dependencies {
     modApi(libs.fabricKotlin)
     modApi(libs.architecturyFabric)
     modApi(libs.fabricPermissionsApi)
+//    modImplementation(libs.fabricGooeylibs)
     listOf(
         libs.stdlib,
         libs.reflect,

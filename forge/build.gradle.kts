@@ -29,6 +29,7 @@ repositories {
 dependencies {
     forge(libs.forge)
     modApi(libs.architecturyForge)
+//    modApi(libs.forgeGooeylibs)
 //    modApi(libs.kotlinForForge)
 
     //shadowCommon group: 'commons-io', name: 'commons-io', version: '2.6'

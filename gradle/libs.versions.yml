@@ -22,6 +22,7 @@ versions:
 
   # common
   architectury: 6.5.69
+  gooeylibs: 3.0.0-1.19.2-SNAPSHOT
 
   # test
   junit: 5.9.0
@@ -82,6 +83,10 @@ dependencies:
     group: dev.architectury
     name: architectury
     version: { ref: architectury }
+  gooeylibsApi:
+    group: ca.landonjw.gooeylibs
+    name: api
+    version: { ref: gooeylibs }
 
   # fabric
   fabricApi:
@@ -100,6 +105,10 @@ dependencies:
     group: me.lucko
     name: fabric-permissions-api
     version: { ref: fabric-permissions-api }
+  fabricGooeylibs:
+    group: ca.landonjw.gooeylibs
+    name: fabric
+    version: { ref: gooeylibs }
 
   # forge
   forge:
@@ -114,6 +123,10 @@ dependencies:
     group: thedarkcolour
     name: kotlinforforge
     version: { ref: kotlinForForge }
+  forgeGooeylibs:
+    group: ca.landonjw.gooeylibs
+    name: forge
+    version: { ref: gooeylibs }
 
   # test
   junitEngine:

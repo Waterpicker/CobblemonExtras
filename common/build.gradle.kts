@@ -24,6 +24,7 @@ dependencies {
     modImplementation(libs.fabricLoader)
     modApi ("curse.maven:cobblemon-687131:4443254")
     modApi(libs.architectury)
+    modImplementation(libs.gooeylibsApi)
 
     //shadowCommon group: 'commons-io', name: 'commons-io', version: '2.6'
 
